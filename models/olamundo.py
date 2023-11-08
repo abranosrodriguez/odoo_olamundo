@@ -17,6 +17,7 @@
 #         for record in self:
 #             record.value2 = float(record.value) / 100
 from odoo import models, fields, api
+#comprobacion
 
 class olamundo(models.Model):
     _name = 'odoo_olamundo.olamundo'
